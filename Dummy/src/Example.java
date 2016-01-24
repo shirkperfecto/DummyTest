@@ -16,6 +16,13 @@ import testUtils.*;
 
 public class Example {
 	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 * @throws MalformedURLException the malformed url exception
+	 * @throws IOException Signals that an I/O exception has occurred.
+	 */
 	public static void main(String[] args) throws MalformedURLException, IOException {
 
 		System.out.println("Run started");
@@ -66,7 +73,7 @@ public class Example {
 			}
 			
 			//option 5: set a speciofic seed and execute the dummy test
-			dummyTest.setRandomSeed(30);
+			dummyTest.setRandomSeed(dummyTest.getRandomSeed());
 			dummyTest.dummyTest("Maps");
 					
 						

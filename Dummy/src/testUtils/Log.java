@@ -12,19 +12,23 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 
 
-/*****************************************
- * The Class Log create two log files for each execution - 
+// TODO: Auto-generated Javadoc
+/**
+ * ***************************************
+ * The Class Log create two log files for each execution - .
+ *
  * @executionLog - created once and then tails each execution messages until file is deleted.
  * 					located under test-output/logs/execution.log
  * @SpecificLog - creates a specific execution log named with a time stamp
  * 				  located under test-output/calling class name/timestamp.log	 
- ****************************************/
+ * **************************************
+ */
 public class Log extends Logger{
 	 
- 	/** The specific log -log for each execution (name includes time stamp) */
+ 	/**  The specific log -log for each execution (name includes time stamp). */
  	private static Logger specificLog;
 	 
- 	/** The execution log - tails all executions messages */
+ 	/**  The execution log - tails all executions messages. */
  	private static Logger executionLog;
 	 
 	 
@@ -84,11 +88,13 @@ public class Log extends Logger{
 		   
 		}
 	 
-	/*********************************************
- 	 * Logs an INFO message
- 	 *
- 	 * @param message the message
- 	 ********************************************/
+	/**
+	 * *******************************************
+	 * Logs an INFO message.
+	 *
+	 * @param message the message
+	 * ******************************************
+	 */
  	// Need to create these methods, so that they can be called  
 	public void info(String message) {
 		specificLog.info(message);
@@ -96,44 +102,52 @@ public class Log extends Logger{
 		
 	 }
 	
-	/*********************************************
- 	 * Logs an WARNING message
- 	 *
- 	 * @param message the message
- 	 ********************************************/
+	/**
+	 * *******************************************
+	 * Logs an WARNING message.
+	 *
+	 * @param message the message
+	 * ******************************************
+	 */
 	public void warn(String message) {
 		specificLog.warn(message);
 		//executionLog.warn(message);
 		
 	    }
 	
-	/*********************************************
- 	 * Logs an ERROR message
- 	 *
- 	 * @param message the message
- 	 ********************************************/
+	/**
+	 * *******************************************
+	 * Logs an ERROR message.
+	 *
+	 * @param message the message
+	 * ******************************************
+	 */
 	public void error(String message) {
 		specificLog.error(message);
 		//executionLog.error(message);
 		
 	    }
 	
-	/*********************************************
- 	 * Logs FATAL message
- 	 *
- 	 * @param message the message
- 	 ********************************************/
+	/**
+	 * *******************************************
+	 * Logs FATAL message.
+	 *
+	 * @param message the message
+	 * ******************************************
+	 */
 	public void fatal(String message) {
 		specificLog.fatal(message);
 		//executionLog.fatal(message);
 		
 	    }
 	
-	/*********************************************
- 	 * Logs a DEBUG message
- 	 *
- 	 * @param message the message
- 	 ********************************************/
+	/**
+	 * *******************************************
+	 * Logs a DEBUG message.
+	 *
+	 * @param message the message
+	 * ******************************************
+	 */
 	public void debug(String message) {
 		specificLog.debug(message);
 		//executionLog.debug(message);
