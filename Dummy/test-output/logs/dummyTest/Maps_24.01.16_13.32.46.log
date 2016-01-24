@@ -1,0 +1,108 @@
+24-01-16 13:32 DEBUG [Maps] ********************************************************************************************* 
+24-01-16 13:32 DEBUG [Maps] ************* Starting dummyTest on App: Maps****************** 
+24-01-16 13:32 DEBUG [Maps] ************* Seed is set to: 2960****************** 
+24-01-16 13:32 DEBUG [Maps] ************* Max actions = 100 Or Timeout = 300 SECONDS ****************** 
+24-01-16 13:33 DEBUG [Maps] Opened Application: Maps 
+24-01-16 13:33 DEBUG [Maps] Rotate: {method=device, operation=reset} 
+24-01-16 13:33 DEBUG [Maps] Rotate: {operation=reset} 
+24-01-16 13:33 DEBUG [Maps] Rotate: {operation=next} 
+24-01-16 13:33 DEBUG [Maps] Touch: double ==> [691,558] 
+24-01-16 13:33 DEBUG [Maps] Swipe: [488,1151] to [111,610] 
+24-01-16 13:33 DEBUG [Maps] Touch: down ==> [648,452] 
+24-01-16 13:33 DEBUG [Maps] Touch: double ==> [219,1130] 
+24-01-16 13:33 DEBUG [Maps] Rotate: {method=device, operation=next} 
+24-01-16 13:33 DEBUG [Maps] Touch: single ==> [79,1250] 
+24-01-16 13:33 DEBUG [Maps] Rotate: {method=device, operation=next} 
+24-01-16 13:33 DEBUG [Maps] Rotate: {method=device, operation=reset} 
+24-01-16 13:33 DEBUG [Maps] Swipe: [268,391] to [543,278] 
+24-01-16 13:33 DEBUG [Maps] Rotate: {operation=reset} 
+24-01-16 13:33 DEBUG [Maps] Drag: down ==> [456,341] to [254,1070] 
+24-01-16 13:33 DEBUG [Maps] Gesture: zoom ==> [109,872] to [7,784] 
+24-01-16 13:33 DEBUG [Maps] Drag: up ==> [561,834] to [485,1210] 
+24-01-16 13:33 DEBUG [Maps] Drag: down ==> [400,610] to [252,1018] 
+24-01-16 13:33 DEBUG [Maps] Drag: notap ==> [622,655] to [371,418] 
+24-01-16 13:33 DEBUG [Maps] Rotate: {method=view, operation=reset} 
+24-01-16 13:33 DEBUG [Maps] Drag: notap ==> [401,322] to [705,740] 
+24-01-16 13:33 DEBUG [Maps] Rotate: {method=device, operation=reset} 
+24-01-16 13:33 DEBUG [Maps] Drag: down ==> [214,801] to [82,534] 
+24-01-16 13:33 DEBUG [Maps] Gesture: pinch ==> [7,291] to [665,574] 
+24-01-16 13:33 DEBUG [Maps] Drag: notap ==> [125,129] to [134,251] 
+24-01-16 13:33 DEBUG [Maps] Drag: up ==> [192,432] to [272,950] 
+24-01-16 13:33 DEBUG [Maps] Touch: double ==> [672,1017] 
+24-01-16 13:33 DEBUG [Maps] Gesture: zoom ==> [643,1183] to [81,1015] 
+24-01-16 13:34 DEBUG [Maps] Gesture: zoom ==> [697,383] to [22,225] 
+24-01-16 13:34 DEBUG [Maps] Drag: up ==> [671,602] to [131,996] 
+24-01-16 13:34 DEBUG [Maps] Drag: notap ==> [422,475] to [344,1055] 
+24-01-16 13:34 DEBUG [Maps] Gesture: pinch ==> [129,584] to [269,1045] 
+24-01-16 13:34 DEBUG [Maps] Drag: down ==> [203,626] to [337,406] 
+24-01-16 13:34 DEBUG [Maps] Drag: down ==> [394,542] to [157,85] 
+24-01-16 13:34 DEBUG [Maps] Drag: up ==> [340,596] to [590,240] 
+24-01-16 13:34 DEBUG [Maps] Swipe: [557,777] to [267,589] 
+24-01-16 13:34 DEBUG [Maps] Gesture: zoom ==> [540,228] to [63,82] 
+24-01-16 13:34 DEBUG [Maps] Drag: notap ==> [222,686] to [440,575] 
+24-01-16 13:34 DEBUG [Maps] Rotate: {method=view, operation=reset} 
+24-01-16 13:34 DEBUG [Maps] Rotate: {method=device, operation=next} 
+24-01-16 13:34 DEBUG [Maps] Swipe: [342,568] to [416,869] 
+24-01-16 13:34 DEBUG [Maps] Rotate: {method=view, operation=reset} 
+24-01-16 13:34 DEBUG [Maps] Swipe: [580,260] to [273,1197] 
+24-01-16 13:34 DEBUG [Maps] Touch: double ==> [244,831] 
+24-01-16 13:34 DEBUG [Maps] Touch: down ==> [435,335] 
+24-01-16 13:34 DEBUG [Maps] Rotate: {method=device, operation=next} 
+24-01-16 13:34 DEBUG [Maps] Gesture: zoom ==> [571,362] to [94,200] 
+24-01-16 13:34 DEBUG [Maps] Touch: down ==> [313,631] 
+24-01-16 13:34 DEBUG [Maps] Touch: down ==> [61,752] 
+24-01-16 13:34 DEBUG [Maps] Drag: tap ==> [556,963] to [585,150] 
+24-01-16 13:34 DEBUG [Maps] Drag: tap ==> [365,738] to [700,763] 
+24-01-16 13:34 DEBUG [Maps] Rotate: {method=device, operation=reset} 
+24-01-16 13:34 DEBUG [Maps] Drag: down ==> [519,735] to [40,790] 
+24-01-16 13:34 DEBUG [Maps] Gesture: zoom ==> [417,239] to [305,51] 
+24-01-16 13:34 DEBUG [Maps] Swipe: [144,825] to [206,293] 
+24-01-16 13:34 DEBUG [Maps] Swipe: [689,492] to [274,886] 
+24-01-16 13:34 DEBUG [Maps] Gesture: pinch ==> [147,59] to [447,236] 
+24-01-16 13:34 DEBUG [Maps] Swipe: [373,1183] to [330,598] 
+24-01-16 13:34 DEBUG [Maps] Swipe: [512,363] to [244,520] 
+24-01-16 13:34 DEBUG [Maps] Touch: up ==> [547,353] 
+24-01-16 13:35 DEBUG [Maps] Gesture: pinch ==> [95,774] to [156,945] 
+24-01-16 13:35 DEBUG [Maps] Drag: up ==> [672,786] to [159,324] 
+24-01-16 13:35 DEBUG [Maps] Swipe: [644,1094] to [560,437] 
+24-01-16 13:35 DEBUG [Maps] Touch: single ==> [121,296] 
+24-01-16 13:35 DEBUG [Maps] Touch: down ==> [553,320] 
+24-01-16 13:35 DEBUG [Maps] Rotate: {operation=next} 
+24-01-16 13:35 DEBUG [Maps] Drag: down ==> [147,1230] to [291,568] 
+24-01-16 13:35 DEBUG [Maps] Drag: notap ==> [586,190] to [698,1188] 
+24-01-16 13:35 DEBUG [Maps] Gesture: zoom ==> [314,646] to [65,454] 
+24-01-16 13:35 DEBUG [Maps] Rotate: {method=view, operation=next} 
+24-01-16 13:35 DEBUG [Maps] Gesture: pinch ==> [273,405] to [394,551] 
+24-01-16 13:35 DEBUG [Maps] Gesture: pinch ==> [200,939] to [296,1190] 
+24-01-16 13:35 DEBUG [Maps] Drag: down ==> [58,319] to [689,581] 
+24-01-16 13:35 DEBUG [Maps] Touch: single ==> [345,587] 
+24-01-16 13:35 DEBUG [Maps] Drag: up ==> [629,1141] to [560,1180] 
+24-01-16 13:35 DEBUG [Maps] Drag: up ==> [94,606] to [83,1164] 
+24-01-16 13:35 DEBUG [Maps] Drag: tap ==> [279,696] to [105,1191] 
+24-01-16 13:35 DEBUG [Maps] Gesture: zoom ==> [106,1180] to [98,229] 
+24-01-16 13:35 DEBUG [Maps] Swipe: [86,508] to [528,1020] 
+24-01-16 13:35 DEBUG [Maps] Gesture: zoom ==> [694,162] to [23,17] 
+24-01-16 13:35 DEBUG [Maps] Drag: down ==> [671,604] to [323,850] 
+24-01-16 13:35 DEBUG [Maps] Swipe: [559,764] to [496,846] 
+24-01-16 13:35 DEBUG [Maps] Rotate: {method=device, operation=reset} 
+24-01-16 13:35 DEBUG [Maps] Touch: down ==> [678,394] 
+24-01-16 13:35 DEBUG [Maps] Swipe: [282,884] to [495,1267] 
+24-01-16 13:35 DEBUG [Maps] Rotate: {method=view, operation=reset} 
+24-01-16 13:35 DEBUG [Maps] Swipe: [52,980] to [453,1029] 
+24-01-16 13:35 DEBUG [Maps] Touch: down ==> [281,274] 
+24-01-16 13:35 DEBUG [Maps] Touch: single ==> [380,872] 
+24-01-16 13:35 DEBUG [Maps] Gesture: zoom ==> [654,870] to [95,213] 
+24-01-16 13:35 DEBUG [Maps] Touch: down ==> [179,584] 
+24-01-16 13:35 DEBUG [Maps] Swipe: [620,1138] to [80,483] 
+24-01-16 13:35 DEBUG [Maps] Drag: notap ==> [701,967] to [685,67] 
+24-01-16 13:36 DEBUG [Maps] Touch: down ==> [575,949] 
+24-01-16 13:36 DEBUG [Maps] Rotate: {operation=reset} 
+24-01-16 13:36 DEBUG [Maps] Rotate: {method=view, operation=reset} 
+24-01-16 13:36 DEBUG [Maps] Touch: down ==> [161,485] 
+24-01-16 13:36 DEBUG [Maps] Gesture: pinch ==> [88,472] to [252,613] 
+24-01-16 13:36 DEBUG [Maps] Gesture: pinch ==> [343,895] to [387,1249] 
+24-01-16 13:36 DEBUG [Maps] Rotate: {operation=reset} 
+24-01-16 13:36 DEBUG [Maps] Swipe: [71,464] to [178,135] 
+24-01-16 13:36 DEBUG [Maps] *************Reached 100 Actions*************** 
+24-01-16 13:36 DEBUG [Maps] *************End Of Test on: Maps*************** 
+24-01-16 13:36 DEBUG [Maps] ********************************************************************************************* 
