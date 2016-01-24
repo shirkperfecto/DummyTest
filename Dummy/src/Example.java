@@ -41,7 +41,7 @@ public class Example {
         
 				
         /**************************************
-         * Below is a sample of the usage of the linksTest
+         * Below is a sample of the usage of the dummyTest
          *************************************/
 		try {
 			DummyTest dummyTest = new DummyTest(driver);

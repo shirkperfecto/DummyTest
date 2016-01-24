@@ -23,7 +23,7 @@ public class Constants {
 	
 /** The dummy actions number. */
 	//DummyTestConstants
-	public static int dummyActionsNumber = 100;
+	public static int dummyActionsNumber = 300;
 	
 	/** The dummy timeout. */
 	public static long dummyTimeout = 300;
