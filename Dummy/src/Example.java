@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.*;
 
 import org.openqa.selenium.remote.*;
@@ -42,17 +44,31 @@ public class Example {
          * Below is a sample of the usage of the linksTest
          *************************************/
 		try {
-			DummyTest testUtils = new DummyTest(driver);
-			//testUtils.setRandomSeed(2309);
-			/*if (testUtils.dummyTest("Play Store", 100)){
-				System.out.println("Found an Exception");
-				return;
-			}*/
+			DummyTest dummyTest = new DummyTest(driver);
 			
-			if (testUtils.dummyTest("Maps", 300)){
+			//Option1: Use default values of 100 gestures or 300 seconds:
+			if (dummyTest.dummyTest("Maps")){
 				System.out.println("Found an Exception");
-				return;
 			}
+			
+			//Option2: limit dummy test to 30 gestures:
+			if (dummyTest.dummyTest("Maps", 30)){
+				System.out.println("Found an Exception");
+			}
+			//Option3: limit dummy test to 60 seconds:
+			if (dummyTest.dummyTest("Maps", 60, TimeUnit.SECONDS)){
+				System.out.println("Found an Exception");
+			}
+			
+			//Option4: limit dummy test to either 10 commands or 60 seconds:
+			if (dummyTest.dummyTest("Maps", 10, 60, TimeUnit.SECONDS)){
+				System.out.println("Found an Exception");
+			}
+			
+			//option 5: set a speciofic seed and execute the dummy test
+			dummyTest.setRandomSeed(30);
+			dummyTest.dummyTest("Maps");
+					
 						
 		} catch (Exception e) {
 			e.printStackTrace();
